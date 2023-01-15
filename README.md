@@ -35,7 +35,7 @@ Enter the command (from mySite root)
 
 Navigate to 127.0.0.1:8000/personal by default to see the application
 
-[alt-text](images/shopfront.png "preview of the 'personal' application")
+[alt-text](images/shopfront.png "preview of the personal application")
 
 <a name ="credits"> 
 

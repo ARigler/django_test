@@ -33,7 +33,7 @@ Either download and unzip the archive or git clone the repo.
 Enter the command (from mySite root)
 > python manage.py runserver
 
-Navigate to 127.0.0.1:8000/personal by default to see the application
+Navigate to [http://127.0.0.1:8000/personal](http://127.0.0.1:8000/personal) by default to see the application
 
 [alt-text](images/shopfront.png "preview of the personal application")
 

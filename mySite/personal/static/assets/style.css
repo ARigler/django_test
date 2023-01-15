@@ -1,0 +1,63 @@
+.centred {
+    text-align: center;
+}
+
+.shop_item{
+    border: 1px solid #d5c4a1;
+}
+
+.button{
+    margin-bottom:10px;
+}
+
+
+img{
+    margin-top:10px;
+    max-width:200px;
+    max-height:150px;
+}
+
+img:hover{
+    opacity:50%;
+}
+
+h3{
+    font-size: large;
+    color:#ebdbb2;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #504945;
+}
+
+body{
+    background-color: #282828;
+}
+
+h1{
+    color:#ebdbb2;
+}
+
+p{
+    color:#ebdbb2;
+}
+
+button{
+    background-color: #689d6a;
+}
+
+button:hover{
+    background-color: #8ec07c;
+}
+
+label{
+    color:#ebdbb2;
+}
+
+#logo{
+    max-width:128px;
+}

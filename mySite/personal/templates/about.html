@@ -1,0 +1,97 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Alexander Rigler
+        </title>
+        <link href="{% static 'assets/bakstyle.css' %}" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <section class="cv_section" id="head_section">
+                <h1 id="main_title">Alexander Rigler</h1>
+                <p>A software engineer looking to break into systems programming. Passionate about Linux and FOSS.</p>
+            </section>
+        </header>
+        <nav id="navi">
+            <a href="#skills"><p>Skillset</p></a>
+            <a href="#education"><p>Education</p></a>
+            <a href="#projects"><p>Projects</p></a>
+            <a href="#github"><p>Github</p></a>
+            <a href="#contact"><p>Contact details</p></a>
+        </nav>
+        <main>
+            <article>
+                <div>
+                    <section class="cv_section" id="skills">
+                        <h2>Skillset:</h2>
+                        <h3>Languages:</h3>
+                        <ul>
+                            <li>C++</li>
+                            <li>Rust</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>HTML/CSS</li>
+                            <li>Javascript</li>
+                            <li>PHP</li>
+                            <li>SQL</li>
+                        </ul>
+                        <h3>Frameworks and libraries:</h3>
+                        <ul>
+                            <li>JQuery</li>
+                            <li>AJAX</li>
+                            <li>Django</li>
+                            <li>Java Swing</li>
+                            <li>JavaFX</li>
+                        </ul>
+                        <h3>Skills and technologies:</h3>
+                        <ul>
+                            <li>Linux</li>
+                            <li>Git</li>
+                            <li>Object-Oriented Programming</li>
+                            <li>Finite State Machines</li>
+                            <li>Docker</li>
+                            <li>Microsoft Office</li>
+                        </ul>
+                    </section>
+                    <section class="cv_section" id="education">
+                        <h2>Education:</h2>
+                        <ul>
+                            <li>2:1 BSC degree from Keele University</li>
+                            <li>ABB in A-level Chemistry, Maths and Physics from Idsall Sixth Form College</li>
+                            <li>A in AS-level Biology from Idsall Sixth Form College</li>
+                            <li>12 GCSEs: 3 A*, 3 Bs, 6 As (Including English, Maths and Sciences A*-B) from Idsall School</li>
+                        </ul>
+                    </section>
+                    <section class="cv_section" id="projects">
+                        <h2>Projects:</h2>
+                        <ul>
+                            <li>A simple proof-of-concept HTTP server in Rust</li>
+                            <li>Some basic experimentation with the spaCy Python library</li>
+                        </ul>
+                    </section>
+                    <section class="cv_section" id="github">
+                        <h2>Github repo</h2>
+                        <ul>
+                            <li><a href=https://github.com/ARigler>https://github.com/ARigler</a></li>
+                        </ul>
+                    </section>
+                    <section class="cv_section" id="contact">
+                        <h2 id="contact">Contact Details:</h2>
+                        <ul>
+                            <li>
+                                E-mail: <a href="mailto:alexandercrigler@gmail.com">alexandercrigler@gmail.com</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <aside id="portrait">
+                    <img src="{% static 'assets/portraiteroni.jpg' %}" alt="A photo of Alexander Rigler">
+                </aside>
+            </article>
+        </main>
+    </body>
+</html>

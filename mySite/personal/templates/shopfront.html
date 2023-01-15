@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="{% static 'assets/style.css' %}" rel="stylesheet" type="text/css">
+        <title>Shopping Page</title>
+    </head>
+    <body>
+        <header class="row">
+            <div class="col-md-4"></div>
+            <h1 class="col-md-4 centred">Shopping Website</h1>
+            <div class="col-md-4"></div>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="shop_item col-md-2">
+                    <img src="{% static 'assets/008ab728-cc59-40d1-a6cf-064b606a0091.jpg' %}" alt="an item to be bought">
+                    <h3>Beef Pho</h3>
+                    <p>£6.80</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="shop_item col-md-2">
+                    <img src="{% static 'assets/816cfecf-6c50-4754-9a09-ea2836fc7edd.jpg' %}" alt="an item to be bought">
+                    <h3>Chicken Udon</h3>
+                    <p>£9.70</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="shop_item col-md-2">
+                    <img src="{% static 'assets/934dd38d-f008-450b-a87a-c310f5c10ec1.jpg' %}" alt="an item to be bought">
+                    <h3>Pad Thai</h3>
+                    <p>£8.80</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="shop_item col-md-2">
+                    <img src="{% static 'assets/20220915_124704.jpg' %}" alt="an item to be bought">
+                    <h3>Chicken Noodles</h3>
+                    <p>£3.40</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="shop_item col-md-2">
+                    <img src="{% static 'assets/20221009_135306.jpg' %}" alt="an item to be bought">
+                    <h3>Chicken Breast with Mozzarella</h3>
+                    <p>£6.30</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="shop_item col-md-2">
+                    <img src="{% static 'assets/20221013_123318.jpg' %}" alt="an item to be bought">
+                    <h3>Lemongrass Beef Stew with Spaghetti</h3>
+                    <p>£5.80</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="shop_item col-md-2">
+                    <img src="{% static 'assets/20221029_125933.jpg' %}" alt="an item to be bought">
+                    <h3>Mapo Tofu</h3>
+                    <p>£6.40</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="shop_item col-md-2">
+                    <img src="{% static 'assets/20221112_125713.jpg' %}" alt="an item to be bought">
+                    <h3>Spaghetti alla catastrophe</h3>
+                    <p>£4.80</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="shop_item col-md-2">
+                    <img src="{% static 'assets/20221215_123617.jpg' %}" alt="an item to be bought">
+                    <h3>Pasta pangrattato</h3>
+                    <p>£5.90</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="shop_item col-md-2">
+                    <img src="{% static 'assets/54574817-fb89-4876-9fd5-c023cd4e7cc8.jpg' %}" alt="an item to be bought">
+                    <h3>Stir-fried Soba with mint</h3>
+                    <p>£5.50</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </main>
+        <footer class="row foot">
+            <img class="col-md-1" src="{% static 'assets/Bird-Logo.png' %}" alt="Restaurant Company logo" id="logo">
+            <form class="col-md-11">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <label for="phone_num" class="col-md-4">Phone number</label>
+                    <label for="address" class="col-md-3">Address</label>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <input type="tel" class="col-md-4" id="phone_num">
+                    <input type="text" class="col-md-3" id="address">
+                </div>
+                <div class="row">
+                    <div class="col-md-10"></div>
+                    <button class="col-md-1">submit</button>
+                </div>
+            </form>
+        </footer>
+    </body>
+</html>

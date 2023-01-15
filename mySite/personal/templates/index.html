@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Alexander Rigler
+        </title>
+        <link href="{% static 'assets/bakstyle.css' %}" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <section class="cv_section" id="head_section">
+                <h1 id="main_title">Reinholm</h1>
+                <p>The personal Django realm of Alexander Rigler</p>
+            </section>
+        </header>
+        <main>
+            <article>
+                <div>
+                    <section class="cv_section" id="skills">
+                        <ul>
+                            <li>
+                                <a href="{% url 'about' %}">About me</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'shopfront' %}">Sample shopfront</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+asgiref @ file:///opt/conda/conda-bld/asgiref_1661287532135/work
+blis==0.7.9
+catalogue==2.0.8
+certifi @ file:///croot/certifi_1671487769961/work/certifi
+confection==0.0.3
+cymem==2.0.7
+Django @ file:///opt/conda/conda-bld/django_1661296381686/work
+langcodes==3.3.0
+murmurhash==1.0.9
+numpy==1.24.1
+pathy==0.10.1
+preshed==3.0.8
+pydantic==1.10.4
+PySimpleGUI==4.60.1
+smart-open==6.3.0
+spacy==3.4.4
+spacy-legacy==3.0.11
+spacy-loggers==1.0.4
+sqlparse @ file:///croot/sqlparse_1668793487206/work
+srsly==2.4.5
+thinc==8.1.6
+tqdm==4.64.1
+typing_extensions==4.4.0
+wasabi==0.10.1
